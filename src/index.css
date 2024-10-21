@@ -1,0 +1,20 @@
+.heading1{
+    text-align: center;
+}
+.paragraph1{
+    width:70%;
+    margin: auto;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.into_video{
+width: fit-content;
+margin: auto;
+margin-top: 50px;
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divider{
+    width: 70%;
+    margin-top: 100px;
+}

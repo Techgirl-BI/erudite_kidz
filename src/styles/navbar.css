@@ -1,0 +1,29 @@
+.companyname{
+    width: fit-content;
+    position: relative;
+    top: -90px;
+    left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.logo{
+    width: fit-content;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    margin-top: -90px;
+}
+nav li {
+    margin: 0 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+@media screen and (max-width: 425px){
+    nav ul{
+        display: none;
+    }
+    .logo{
+        margin-top: 100px;
+    }
+}

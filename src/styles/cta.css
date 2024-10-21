@@ -1,0 +1,12 @@
+.cta{
+    position: relative;
+    top: -1000px;
+    left: 700px;
+    background-color: rgb(251, 76, 76);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: larger;
+    border: none;
+    margin-top: 30px;
+}
