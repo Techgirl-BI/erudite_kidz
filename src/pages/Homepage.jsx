@@ -13,7 +13,7 @@ const Homepage = () => {
         <Navbar/>
         <p className='onlineClasses'>Online and Face to Face classes and camps</p>
         <div>
-            <img src='https://yetiacademy.com/wp-content/uploads/2023/03/learning-to-code.jpg' />
+            <img src='https://yetiacademy.com/wp-content/uploads/2023/03/learning-to-code.jpg' className='hero_img' />
         </div>
         <Call_to_action/>
        <About/>
