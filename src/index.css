@@ -18,8 +18,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     width: 70%;
     margin-top: 100px;
 }
-@media screen and (max-width: 425px){
+@media all and (max-width: 320px){
     .hero_img{
-        max-width: 424px;
+        width: 300vh;
+        position: relative;
+        top: -250px;
     }
 }

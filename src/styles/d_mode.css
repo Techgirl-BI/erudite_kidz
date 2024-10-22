@@ -4,10 +4,21 @@
     color: whitesmoke;
     font-size: x-large;
     padding: 20px;
+    display: flex;
+}
+.onlineClasses p{
+    flex-grow: 1;
 
 }
-@media screen and (max-width: 425px){
+@media all and (max-width: 320px){
    .onlineClasses{
-    max-width: 400px;
+    background-color: green;
+    position: relative;
+    top: -250px;
+    width: max-content;
+    text-align: center ;
+    margin: auto;
+    padding: 2px 200px;
    }
+
 }
