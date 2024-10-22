@@ -19,11 +19,23 @@ nav li {
     margin: 0 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+  .hamburger{
+    display: none;
+  }
 @media screen and (max-width: 425px){
     nav ul{
         display: none;
     }
     .logo{
         margin-top: 100px;
+        margin-left: 30px;
+        font-size: 1.2rem;
+    }
+    .companyname{
+        position: relative;
+        top: -150px;
+    }
+    .hamburger{
+
     }
 }

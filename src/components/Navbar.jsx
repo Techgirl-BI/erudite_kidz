@@ -16,9 +16,9 @@ const Navbar = () => {
           <li>Timetable and Prices</li>
           <li>Contact</li>
           <li>Sign Up</li>
-          <li>Monthly Challenge</li>
+          <li>Monthly Challenge</li> 
         </ul>
-        <div><img src="https://tse4.mm.bing.net/th?id=OIP.9kksv3x3Tk_A7y0qNOg6dAHaHa&pid=Api&P=0&h=220" width={100}/></div>
+        <div><img src="https://tse4.mm.bing.net/th?id=OIP.9kksv3x3Tk_A7y0qNOg6dAHaHa&pid=Api&P=0&h=220" width={100} className="hamburger"/></div>
       </nav>
     </div>
   );
