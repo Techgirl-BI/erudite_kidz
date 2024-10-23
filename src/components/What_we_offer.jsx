@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/What_we_offer.css'
+import '../styles/what_we_offer.css'
 const What_we_offer = () => {
   return (
     <div className='offerings'>
