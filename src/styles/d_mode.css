@@ -10,7 +10,7 @@
     flex-grow: 1;
 
 }
-@media all and (max-width: 414px){
+@media all and (max-width: 420px){
    .onlineClasses{
     background-color: green;
     position: relative;

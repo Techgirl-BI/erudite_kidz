@@ -10,7 +10,7 @@
     border: none;
     margin-top: 30px;
 }
-@media all and (max-width: 414px){
+@media all and (max-width: 420px){
     .cta{
         top:-400px;
         left: 100px;

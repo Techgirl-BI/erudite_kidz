@@ -22,7 +22,7 @@ nav li {
   .hamburger{
     display: block;
   }
-  @media all and (max-width: 414px){
+  @media all and (max-width: 420px){
     nav ul{
         display: none;
     }
