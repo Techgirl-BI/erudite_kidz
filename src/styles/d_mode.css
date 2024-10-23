@@ -10,7 +10,7 @@
     flex-grow: 1;
 
 }
-@media all and (max-width: 420px){
+@media all and (max-width: 320px){
    .onlineClasses{
     background-color: green;
     position: relative;
@@ -19,5 +19,15 @@ display: block;
 font-size: 1rem;
 padding: 2px;
    }
-
 }
+@media all and (max-width: 414px){
+    .onlineClasses{
+     background-color: red;
+     position: relative;
+     top: -190px;
+ display: block;
+ font-size: 1rem;
+ padding: 2px;
+    }
+ 
+ }

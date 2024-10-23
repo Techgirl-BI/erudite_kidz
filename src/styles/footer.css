@@ -1,16 +1,46 @@
-.footer{
-    background-color:limegreen;
-    display: flex;
-    justify-content: center;
-  font-size: larger;
-  margin-top: 100px;
-  padding-bottom: 100px;
-  gap: 40px;
-}
-.footer_heading{
-    color: white;
-}
-.footer_img{
-    width: 10%;
-    margin-right: 20px;
-}
+
+.footer-content {
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Wrap content when needed */
+    justify-content: space-between; /* Distribute content horizontally */
+    align-items: center; /* Align vertically (optional) */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .contact-info, .follow-us {
+    flex: 1; /* Make each section take up half the space */
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* For screens smaller than 768px */
+    .contact-info, .follow-us {
+      flex: 100%; /* Make each section take up full width */
+    }
+    .footer_img{
+        width: 70px;
+    }
+    .footer{
+        position: relative;
+        top: -200px;
+        background-color: chocolate;
+        color: azure;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .contact-info, .follow-us {
+      flex: 100%; 
+    }
+    .footer_img{
+        width: 70px;
+    }
+    .footer{
+        position: relative;
+        top: -200px;
+        background-color: chocolate;
+        color: azure;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+  }

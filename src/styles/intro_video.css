@@ -1,9 +1,22 @@
-@media all and (max-width: 420px) {
+
+.intro_video {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .player {
+    flex: 1;  /* Fill available space within container */
+  }
+  @media all and (max-width: 320px) {
     .intro_video{
-        width: 100%;
-        border: 2px solid red;
-    }
-}
-.intro_video{
-    border: 2px solid yellow;
-}
+        position: relative;
+    top: -300px;
+  }
+  }
+  @media all and (max-width: 414px) {
+    .intro_video{
+        position: relative;
+    top: -300px;
+  }
+  }

@@ -24,4 +24,20 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         position: relative;
         top: -190px;
     }
+    .divider{
+        position: relative;
+        top: -320px;
+    }
+}
+@media all and (max-width: 414px){
+    .hero_img{
+        width: 45vh;
+        position: relative;
+        top: -190px;
+    }
+    .divider{
+        position: relative;
+        top: -320px;
+    }
+    
 }
