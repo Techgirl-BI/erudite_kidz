@@ -20,25 +20,35 @@ nav li {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .hamburger{
-    display: none;
+    display: block;
   }
-  @media all and (max-width: 320px){
+  @media all and (max-width: 414px){
     nav ul{
         display: none;
     }
     .hamburger{
         display: block;
         position: relative;
-        top: -350px;
-        left: 650px;
+        top: -200px;
+        left: 100px;
+        width: 50px;
+        margin: auto;
     }
     .logo{
         margin-top: 100px;
         margin-left: 30px;
-        font-size: 1.2rem;
     }
     .companyname{
         position: relative;
         top: -150px;
+        font-size: 10px;
+        left: 50px;
+    }
+    .companylogo{
+        position: relative;
+        top: -100px;
+        left: -20px;
+        width: 50px;
+        height: 50px;
     }
   }

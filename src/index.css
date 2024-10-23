@@ -20,8 +20,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 @media all and (max-width: 320px){
     .hero_img{
-        width: 300vh;
+        width: 55vh;
         position: relative;
-        top: -250px;
+        top: -190px;
     }
 }

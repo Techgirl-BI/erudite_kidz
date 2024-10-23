@@ -1,0 +1,6 @@
+@media all and (max-width: 320px) {
+    .about{
+        position: relative;
+        top: -260px;
+    }
+}

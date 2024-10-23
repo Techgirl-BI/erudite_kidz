@@ -10,9 +10,10 @@
     border: none;
     margin-top: 30px;
 }
-@media all and (max-width: 320px){
+@media all and (max-width: 414px){
     .cta{
-        top:-900px;
-        left: 350px;
+        top:-400px;
+        left: 100px;
+        font-size: smaller;
     }
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import '../styles/news.css'
 const News = () => {
   return (
-    <div>
+    <div className='news'> 
         <h1  className='heading1'>Latest News</h1>
         <p className='paragraph1'>
         The London School of Mathematics and Programming is a unique institution that helps children to develop their intellectual and cognitive skills. We provide classes and camps for ages 4 to 18 that explore and encourage a deeper understanding of Maths, Programming, Robotics and Chess.

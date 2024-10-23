@@ -1,0 +1,9 @@
+@media all and (max-width: 320px) {
+    .intro_video{
+        width: 100%;
+        border: 2px solid red;
+    }
+}
+.intro_video{
+    border: 2px solid yellow;
+}
